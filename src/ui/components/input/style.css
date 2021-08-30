@@ -1,0 +1,27 @@
+.form__input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.form__label {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  padding-bottom: 11px;
+  color: #424242;
+}
+
+.form__input {
+  padding: 16px 42px 16px 16px;
+  color: #424242;
+  font-weight: 300;
+  font-size: 14px;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+}
+
+.form__input:focus {
+  outline: none;
+  border: 1px solid #ea8d00;
+}
